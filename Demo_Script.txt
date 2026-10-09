@@ -1,0 +1,41 @@
+WHO'S A LINKEDIN USER? - DEMO SCRIPT (about 90 seconds)
+
+BEFORE RECORDING
+In a terminal, in the app folder, run:  streamlit run app.py
+The app opens at http://localhost:8501
+In the sidebar, set the assignment's example person: income "100k to under 150k",
+education "Some postgrad, no degree", parent No, married Yes, gender Female, age 42.
+Close other tabs and notifications. Check the microphone.
+
+0:00 to 0:15 | WHAT THE APP DOES
+"This is our Group 3 app. It uses the logistic regression from our notebook, trained
+on the 2021 Pew survey, to predict whether someone uses LinkedIn from six things:
+income, education, parent, married, gender and age."
+
+0:15 to 0:35 | INPUTS AND THE TWO OUTPUTS
+"I pick the person's details in the sidebar. For this person, a 42 year old married
+woman with high income and education, the app says she is a LinkedIn user with a
+73.2 percent probability. Above 50 percent counts as a user."
+[Change one input, for example income to "20k to under 30k", and point out that the
+prediction updates right away. Then change it back.]
+
+0:35 to 0:55 | AGE
+"Now I change only her age to 82. The probability drops to 47.1 percent, so she is
+classified as not a user. The age chart shows the probability falling as age goes up,
+and the table shows the assignment's 42 versus 82 comparison, a drop of 26.1 points."
+
+0:55 to 1:10 | WHO USES LINKEDIN
+"These two charts show the survey pattern behind the model. Use jumps at the 75k income
+bracket and from a bachelor's degree up. So for marketing, LinkedIn is the channel for
+higher income, college educated, working age customers."
+
+1:10 to 1:30 | HOW GOOD IS THE MODEL
+"On the 20 percent of respondents held out for testing, accuracy is 69 percent,
+precision 52.5 percent and recall 75 percent." [Tick "Show the confusion matrix".]
+"The model finds 63 of the 84 real users, with 57 false positives. For marketing,
+missing real users costs more than reaching a few extra people, so the higher recall
+is the right trade off."
+
+CHECK BEFORE SUBMITTING
+Video is between 1 and 2 minutes, shows both outputs (class and probability), shows
+the 42 vs 82 comparison, and the audio is clear.
